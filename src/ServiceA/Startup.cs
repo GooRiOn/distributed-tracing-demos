@@ -28,7 +28,7 @@ namespace ServiceA
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddJeager("Seervice A");
+            services.AddJeager("Service A");
             services.AddOpenTracing();
         }
 

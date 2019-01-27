@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Api.Services;
 using Microsoft.AspNetCore.Mvc;
 using OpenTracing;
+using OpenTracing.Tag;
 using RestEase;
 
 namespace Api.Controllers
@@ -27,10 +29,24 @@ namespace Api.Controllers
         [HttpGet]
         public async Task<IEnumerable<string>> Get()
         {
-            var resultA = await _serviiceA.GetValuesAsync();
-            var resultB = await _serviiceB.GetValuesAsync();
+            using (var scope = BuildScope())
+            {
+                var span = scope.Span;
+                
+                var resultA = await _serviiceA.GetValuesAsync();
+                span.Log($"service-A-fetch-completed: {String.Join(',', resultA)}");
+                
+                var resultB = await _serviiceB.GetValuesAsync();
+                span.Log($"service-B-fetch-completed: {String.Join(',', resultB)}");
 
-            return resultA.ToList().Concat(resultB);
+                return resultA.ToList().Concat(resultB);
+            }
         }
+
+        private IScope BuildScope()
+            => _tracer
+                .BuildSpan("fetching-data-from-services")
+                .WithTag("operation", "fetching")
+                .StartActive(true);
     }
 }
