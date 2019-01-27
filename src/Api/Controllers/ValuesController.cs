@@ -1,8 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Api.Services;
 using Microsoft.AspNetCore.Mvc;
+using OpenTracing;
+using RestEase;
 
 namespace Api.Controllers
 {
@@ -10,36 +12,25 @@ namespace Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly ITracer _tracer;
+        private readonly IService _serviiceA;
+        private readonly IService _serviiceB;
+
+        public ValuesController(ITracer tracer)
+        {
+            _tracer = tracer;
+            _serviiceA = RestClient.For<IService>("http://localhost:5001");
+            _serviiceB = RestClient.For<IService>("http://localhost:5002");
+        }
+        
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
-        }
+            var resultA = await _serviiceA.GetValuesAsync();
+            var resultB = await _serviiceB.GetValuesAsync();
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return resultA.ToList().Concat(resultB);
         }
     }
 }
