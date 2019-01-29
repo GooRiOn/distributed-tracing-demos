@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Api.Services;
 using Microsoft.AspNetCore.Mvc;
 using OpenTracing;
-using OpenTracing.Tag;
 using RestEase;
 
 namespace Api.Controllers
@@ -15,14 +14,14 @@ namespace Api.Controllers
     public class ValuesController : ControllerBase
     {
         private readonly ITracer _tracer;
-        private readonly IService _serviiceA;
-        private readonly IService _serviiceB;
+        private readonly IService _serviceA;
+        private readonly IService _serviceB;
 
         public ValuesController(ITracer tracer)
         {
             _tracer = tracer;
-            _serviiceA = RestClient.For<IService>("http://localhost:5001");
-            _serviiceB = RestClient.For<IService>("http://localhost:5002");
+            _serviceA = RestClient.For<IService>("http://localhost:5001");
+            _serviceB = RestClient.For<IService>("http://localhost:5002");
         }
         
         // GET api/values
@@ -33,10 +32,10 @@ namespace Api.Controllers
             {
                 var span = scope.Span;
                 
-                var resultA = await _serviiceA.GetValuesAsync();
+                var resultA = await _serviceA.GetValuesAsync();
                 span.Log($"service-A-fetch-completed: {String.Join(',', resultA)}");
                 
-                var resultB = await _serviiceB.GetValuesAsync();
+                var resultB = await _serviceB.GetValuesAsync();
                 span.Log($"service-B-fetch-completed: {String.Join(',', resultB)}");
 
                 return resultA.ToList().Concat(resultB);
