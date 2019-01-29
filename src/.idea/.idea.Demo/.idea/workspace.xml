@@ -5,7 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/Shared.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Shared.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceA/ServiceA.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceA/ServiceA.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceA/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceA/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceA/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceA/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceB/ServiceB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceB/ServiceB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceB/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceB/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceB/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceB/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Extensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Shared.csproj" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +28,38 @@
     <session id="1441599698">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csproj" value="2" />
+          <entry key="cs" value="31" />
+          <entry key="csproj" value="7" />
+          <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Csproj" value="2" />
+          <entry key="C#" value="31" />
+          <entry key="Csproj" value="7" />
+          <entry key="JSON" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1364" />
+          <entry key="csproj" value="20" />
+          <entry key="json" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1364" />
+          <entry key="Csproj" value="20" />
+          <entry key="JSON" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -38,80 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="615">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
               <folding>
-                <marker date="1548762945212" expanded="false" signature="6:347" ph="..." />
-                <marker date="1548762945212" expanded="true" signature="362:1084" ph="{...}" />
-                <marker date="1548762945212" expanded="true" signature="389:1082" ph="{...}" />
-                <marker date="1548762945212" expanded="true" signature="448:511" ph="{...}" />
-                <marker date="1548762945212" expanded="true" signature="633:821" ph="{...}" />
-                <marker date="1548762945212" expanded="true" signature="902:1076" ph="{...}" />
-                <marker date="1548762945212" expanded="true" signature="949:1026" ph="{...}" />
+                <marker date="1548765109671" expanded="true" signature="6:380" ph="..." />
+                <marker date="1548765109671" expanded="true" signature="395:1419" ph="{...}" />
+                <marker date="1548765109671" expanded="true" signature="422:1417" ph="{...}" />
+                <marker date="1548765109671" expanded="true" signature="481:544" ph="{...}" />
+                <marker date="1548765109671" expanded="true" signature="678:1157" ph="{...}" />
+                <marker date="1548765109671" expanded="true" signature="1238:1411" ph="{...}" />
+                <marker date="1548765109671" expanded="true" signature="1285:1362" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServiceA/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <marker date="1548762945359" expanded="false" signature="6:416" ph="..." />
-                <marker date="1548762945359" expanded="true" signature="436:1359" ph="{...}" />
-                <marker date="1548762945359" expanded="true" signature="463:1357" ph="{...}" />
-                <marker date="1548762945359" expanded="true" signature="522:585" ph="{...}" />
-                <marker date="1548762945359" expanded="true" signature="808:1002" ph="{...}" />
-                <marker date="1548762945359" expanded="true" signature="1190:1351" ph="{...}" />
-                <marker date="1548762945359" expanded="true" signature="1237:1314" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServiceA/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ServiceB/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <marker date="1548762945437" expanded="false" signature="6:416" ph="..." />
-                <marker date="1548762945437" expanded="true" signature="436:1359" ph="{...}" />
-                <marker date="1548762945437" expanded="true" signature="463:1357" ph="{...}" />
-                <marker date="1548762945437" expanded="true" signature="522:585" ph="{...}" />
-                <marker date="1548762945437" expanded="true" signature="808:1002" ph="{...}" />
-                <marker date="1548762945437" expanded="true" signature="1190:1351" ph="{...}" />
-                <marker date="1548762945437" expanded="true" signature="1237:1314" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServiceB/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -119,50 +87,173 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="357">
+              <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
               <folding>
-                <marker date="1548762945131" expanded="true" signature="6:206" ph="..." />
-                <marker date="1548762945131" expanded="true" signature="233:1571" ph="{...}" />
-                <marker date="1548762945131" expanded="true" signature="338:1569" ph="{...}" />
-                <marker date="1548762945131" expanded="true" signature="527:729" ph="{...}" />
-                <marker date="1548762945131" expanded="true" signature="835:1359" ph="{...}" />
-                <marker date="1548762945131" expanded="true" signature="890:1349" ph="{...}" />
+                <marker date="1548770990810" expanded="false" signature="6:277" ph="..." />
+                <marker date="1548770990810" expanded="true" signature="304:2468" ph="{...}" />
+                <marker date="1548770990810" expanded="true" signature="409:2466" ph="{...}" />
+                <marker date="1548770990810" expanded="true" signature="686:928" ph="{...}" />
+                <marker date="1548770990810" expanded="true" signature="1034:1556" ph="{...}" />
+                <marker date="1548770990810" expanded="true" signature="1089:1546" ph="{...}" />
+                <marker date="1548770990810" expanded="true" signature="1641:1758" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api/Api.csproj">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/b8/3a6188f4/ISpan.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state relative-caret-position="345">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shared/Extensions.cs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/0e/267e9e92/ISpanContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state relative-caret-position="304">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/ICorrelationContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
-                <marker date="1548762945560" expanded="true" signature="6:189" ph="..." />
-                <marker date="1548762945560" expanded="true" signature="207:949" ph="{...}" />
-                <marker date="1548762945560" expanded="true" signature="244:947" ph="{...}" />
-                <marker date="1548762945560" expanded="true" signature="348:941" ph="{...}" />
-                <marker date="1548762945560" expanded="true" signature="407:899" ph="{...}" />
+                <marker date="1548770360995" expanded="false" signature="6:32" ph="..." />
+                <marker date="1548770360995" expanded="true" signature="65:509" ph="{...}" />
+                <marker date="1548770360995" expanded="true" signature="108:507" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/BusSubscriber.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="56" column="80" lean-forward="true" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+              <folding>
+                <marker date="1548771475691" expanded="false" signature="6:447" ph="..." />
+                <marker date="1548771475691" expanded="true" signature="480:9904" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="530:9902" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="918:1523" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="1745:3051" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="1862:2845" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="2051:2476" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="3263:3881" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="3377:3677" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="3891:4090" ph="/* Internal retry for services that subscribe to the multiple events of the same types. ... */" />
+                <marker date="1548771475691" expanded="true" signature="4322:6462" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="4676:6450" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="4710:5364" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="5408:6436" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="5617:6149" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="6480:6661" ph="/* RabbitMQ retry that will publish a message to the retry queue. ... */" />
+                <marker date="1548771475691" expanded="true" signature="6906:9218" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="7321:7603" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="7643:9208" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="7804:8308" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="8369:8846" ph="{...}" />
+                <marker date="1548771475691" expanded="true" signature="9304:9896" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shared/Shared.csproj">
+        <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/Extensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="105">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <marker date="1548764503134" expanded="false" signature="6:443" ph="..." />
+                <marker date="1548764503134" expanded="true" signature="476:5465" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="513:5463" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="708:1901" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="758:975" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="1035:1259" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="1969:3100" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="2037:2984" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="2385:2968" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="2435:2668" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="3167:4588" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="3245:3912" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="4006:4249" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="4345:4578" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="4652:5239" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="4909:5229" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="5061:5158" ph="{...}" />
+                <marker date="1548764503134" expanded="true" signature="5329:5457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/CorrelationContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <marker date="1548770915104" expanded="false" signature="6:69" ph="..." />
+                <marker date="1548770915104" expanded="true" signature="102:2328" ph="{...}" />
+                <marker date="1548770915104" expanded="true" signature="162:2326" ph="{...}" />
+                <marker date="1548770915104" expanded="true" signature="676:696" ph="{...}" />
+                <marker date="1548770915104" expanded="true" signature="741:782" ph="{...}" />
+                <marker date="1548770915104" expanded="true" signature="1046:1626" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58FB2041-40D7-4733-9146-1E64307BD836/7/SpanContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="43" />
+              <folding>
+                <marker date="1548768796345" expanded="false" signature="6:132" ph="..." />
+                <marker date="1548768796345" expanded="true" signature="196:5883" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="914:1179" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="940:1169" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="1006:1107" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="1215:1476" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="1241:1466" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="1306:1405" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="1659:1679" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="1916:2170" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="2246:2294" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="2344:2442" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="2483:2586" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="2629:2687" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="2754:3343" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="3413:3924" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="3538:3637" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="3669:3737" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="3754:3823" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="4003:4114" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="4176:4284" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="4294:4887" ph="/// Returns &lt;c&gt;true&lt;/c&gt; when the instance of the context is only used to return the debug/correlation ID ... " />
+                <marker date="1548768796345" expanded="true" signature="4934:5008" ph="{...}" />
+                <marker date="1548768796345" expanded="true" signature="5018:5667" ph="/// Create a new dummy &lt;see cref=&quot;SpanContext&quot;/&gt; as a container for &lt;paramref name=&quot;debugId&quot;/&gt; string. ... " />
+                <marker date="1548768796345" expanded="true" signature="5729:5877" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/fe/ce696d95/ISpanBuilder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -173,34 +264,61 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServiceA/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/b8/3a6188f4/ISpan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1D3D20D-FCF4-4619-B965-79C980904B44/77/3be8ef5e/IBusPublisher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceA/Messages/GreetUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api/Messages/GreetUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/0e/267e9e92/ISpanContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceA/Handlers/GreetUserHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServiceB/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServiceB/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Shared/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServiceB/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/BusSubscriber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/CorrelationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceA/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DShop.Common/Tracing/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/ICorrelationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceA/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceA/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api/Services/IService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServiceA/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServiceA/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/f8/2b4e08e5/ITracer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/fe/ce696d95/ISpanBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58FB2041-40D7-4733-9146-1E64307BD836/7/SpanContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8DC01E7D-CB03-48F0-9A9D-10393F1EA5DB/a2/ab52b669/AddRawRabbitExtension.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ServiceA/ServiceA.csproj" />
-        <option value="$PROJECT_DIR$/ServiceB/ServiceB.csproj" />
         <option value="$PROJECT_DIR$/Api/Services/IService.cs" />
         <option value="$PROJECT_DIR$/ServiceB/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/ServiceA/Program.cs" />
         <option value="$PROJECT_DIR$/ServiceB/Program.cs" />
         <option value="$PROJECT_DIR$/Shared/Extensions.cs" />
-        <option value="$PROJECT_DIR$/Api/Startup.cs" />
-        <option value="$PROJECT_DIR$/ServiceA/Startup.cs" />
-        <option value="$PROJECT_DIR$/ServiceB/Startup.cs" />
-        <option value="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Shared/Shared.csproj" />
+        <option value="$PROJECT_DIR$/Shared/RabbitMq/IBusOublisher.cs" />
+        <option value="$PROJECT_DIR$/Shared/RabbitMq/IBusPublisher.cs" />
+        <option value="$PROJECT_DIR$/Shared/RabbitMq/BusPublisher.cs" />
+        <option value="$PROJECT_DIR$/DShop.Common/Tracing/Extensions.cs" />
         <option value="$PROJECT_DIR$/Api/Api.csproj" />
+        <option value="$PROJECT_DIR$/ServiceA/ServiceA.csproj" />
+        <option value="$PROJECT_DIR$/ServiceB/ServiceB.csproj" />
+        <option value="$PROJECT_DIR$/ServiceB/Startup.cs" />
+        <option value="$PROJECT_DIR$/Api/appsettings.json" />
+        <option value="$PROJECT_DIR$/ServiceA/appsettings.json" />
+        <option value="$PROJECT_DIR$/ServiceB/appsettings.json" />
+        <option value="$PROJECT_DIR$/Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/ServiceA/Messages/GreetUser.cs" />
+        <option value="$PROJECT_DIR$/Api/Messages/GreetUser.cs" />
+        <option value="$PROJECT_DIR$/ServiceA/Handlers/GreetUserHandler.cs" />
+        <option value="$PROJECT_DIR$/ServiceA/Startup.cs" />
+        <option value="$PROJECT_DIR$/DShop.Common/RabbitMq/ICorrelationContext.cs" />
+        <option value="$PROJECT_DIR$/DShop.Common/RabbitMq/CorrelationContext.cs" />
+        <option value="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/DShop.Common/RabbitMq/BusSubscriber.cs" />
       </list>
     </option>
   </component>
@@ -216,7 +334,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -244,7 +364,13 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Demo" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DShop.Common" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Demo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DShop.Common" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RabbitMq" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +384,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Shared/Shared.csproj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DShop.Common/DShop.Common.csproj" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -379,12 +505,13 @@
       <option name="presentableId" value="Default" />
       <updated>1548591087352</updated>
       <workItem from="1548591088701" duration="6531000" />
-      <workItem from="1548763289244" duration="237000" />
+      <workItem from="1548763289244" duration="5594000" />
+      <workItem from="1548769729380" duration="2393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6768000" />
+    <option name="totallyTimeSpent" value="14518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,21 +524,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3286334" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -419,6 +546,7 @@
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.3286334" />
+      <window_info anchor="bottom" id="REST Client" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -442,37 +570,10 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs</url>
-          <line>31</line>
-          <properties documentPath="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" initialLine="31">
-            <startOffsets>
-              <option value="858" />
-            </startOffsets>
-            <endOffsets>
-              <option value="890" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ServiceA/ServiceA.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ServiceB/ServiceB.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Api/Services/IService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -496,13 +597,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/11/8cd07fd3/IScope.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/7f/21349231/ISpan.cs" />
-    <entry file="file://$PROJECT_DIR$/Api/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ServiceA/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -512,98 +606,356 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ServiceB/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="210">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/Shared.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shared/Extensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding>
-            <marker date="1548762945560" expanded="true" signature="6:189" ph="..." />
-            <marker date="1548762945560" expanded="true" signature="207:949" ph="{...}" />
-            <marker date="1548762945560" expanded="true" signature="244:947" ph="{...}" />
-            <marker date="1548762945560" expanded="true" signature="348:941" ph="{...}" />
-            <marker date="1548762945560" expanded="true" signature="407:899" ph="{...}" />
+            <marker date="1548762945406" expanded="false" signature="6:255" ph="..." />
+            <marker date="1548762945406" expanded="true" signature="275:645" ph="{...}" />
+            <marker date="1548762945406" expanded="true" signature="302:643" ph="{...}" />
+            <marker date="1548762945406" expanded="true" signature="355:429" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/Shared.csproj" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1D3D20D-FCF4-4619-B965-79C980904B44/77/3be8ef5e/IBusPublisher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shared/RabbitMq/IBusPublisher.cs" />
+    <entry file="file://$PROJECT_DIR$/Shared/RabbitMq/CorrelationContext.cs" />
+    <entry file="file://$PROJECT_DIR$/Shared/RabbitMq/BusPublisher.cs" />
+    <entry file="file://$PROJECT_DIR$/Shared/RabbitMq/BusSubscriber.cs" />
+    <entry file="file://$PROJECT_DIR$/Shared/Extensions.cs" />
+    <entry file="file://$PROJECT_DIR$/ServiceA/ServiceA.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceB/ServiceB.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DShop.Common/Tracing/Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <marker date="1548764697213" expanded="true" signature="6:139" ph="..." />
+            <marker date="1548764697213" expanded="true" signature="208:911" ph="{...}" />
+            <marker date="1548764697213" expanded="true" signature="312:905" ph="{...}" />
+            <marker date="1548764697213" expanded="true" signature="371:863" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceB/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceA/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1548762945132" expanded="false" signature="6:255" ph="..." />
+            <marker date="1548762945132" expanded="true" signature="270:597" ph="{...}" />
+            <marker date="1548762945132" expanded="true" signature="297:595" ph="{...}" />
+            <marker date="1548762945132" expanded="true" signature="350:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8DC01E7D-CB03-48F0-9A9D-10393F1EA5DB/a2/ab52b669/AddRawRabbitExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceA/Messages/GreetUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <marker date="1548765210917" expanded="true" signature="97:252" ph="{...}" />
+            <marker date="1548765210917" expanded="true" signature="195:246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceA/Handlers/GreetUserHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1548765338342" expanded="true" signature="6:126" ph="..." />
+            <marker date="1548765338342" expanded="true" signature="220:419" ph="{...}" />
+            <marker date="1548765338342" expanded="true" signature="306:413" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServiceA/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="175">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <marker date="1548762945359" expanded="false" signature="6:416" ph="..." />
-            <marker date="1548762945359" expanded="true" signature="436:1359" ph="{...}" />
-            <marker date="1548762945359" expanded="true" signature="463:1357" ph="{...}" />
-            <marker date="1548762945359" expanded="true" signature="522:585" ph="{...}" />
-            <marker date="1548762945359" expanded="true" signature="808:1002" ph="{...}" />
-            <marker date="1548762945359" expanded="true" signature="1190:1351" ph="{...}" />
-            <marker date="1548762945359" expanded="true" signature="1237:1314" ph="{...}" />
+            <marker date="1548765378407" expanded="true" signature="6:375" ph="..." />
+            <marker date="1548765378407" expanded="true" signature="395:1802" ph="{...}" />
+            <marker date="1548765378407" expanded="true" signature="422:1800" ph="{...}" />
+            <marker date="1548765378407" expanded="true" signature="481:544" ph="{...}" />
+            <marker date="1548765378407" expanded="true" signature="779:1384" ph="{...}" />
+            <marker date="1548765378407" expanded="true" signature="1572:1794" ph="{...}" />
+            <marker date="1548765378407" expanded="true" signature="1619:1696" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Startup.cs">
+    <entry file="file://$PROJECT_DIR$/ServiceB/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <marker date="1548764819198" expanded="false" signature="6:221" ph="..." />
+            <marker date="1548764819198" expanded="true" signature="241:1164" ph="{...}" />
+            <marker date="1548764819198" expanded="true" signature="268:1162" ph="{...}" />
+            <marker date="1548764819198" expanded="true" signature="327:390" ph="{...}" />
+            <marker date="1548764819198" expanded="true" signature="613:807" ph="{...}" />
+            <marker date="1548764819198" expanded="true" signature="995:1156" ph="{...}" />
+            <marker date="1548764819198" expanded="true" signature="1042:1119" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Messages/GreetUser.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <marker date="1548762945212" expanded="false" signature="6:347" ph="..." />
-            <marker date="1548762945212" expanded="true" signature="362:1084" ph="{...}" />
-            <marker date="1548762945212" expanded="true" signature="389:1082" ph="{...}" />
-            <marker date="1548762945212" expanded="true" signature="448:511" ph="{...}" />
-            <marker date="1548762945212" expanded="true" signature="633:821" ph="{...}" />
-            <marker date="1548762945212" expanded="true" signature="902:1076" ph="{...}" />
-            <marker date="1548762945212" expanded="true" signature="949:1026" ph="{...}" />
+            <marker date="1548765243566" expanded="true" signature="120:275" ph="{...}" />
+            <marker date="1548765243566" expanded="true" signature="218:269" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/f8/2b4e08e5/ITracer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="1170">
+          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
           <folding>
-            <marker date="1548762945131" expanded="true" signature="6:206" ph="..." />
-            <marker date="1548762945131" expanded="true" signature="233:1571" ph="{...}" />
-            <marker date="1548762945131" expanded="true" signature="338:1569" ph="{...}" />
-            <marker date="1548762945131" expanded="true" signature="527:729" ph="{...}" />
-            <marker date="1548762945131" expanded="true" signature="835:1359" ph="{...}" />
-            <marker date="1548762945131" expanded="true" signature="890:1349" ph="{...}" />
+            <marker date="1548767331288" expanded="true" signature="0:314" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1548767331288" expanded="true" signature="369:5707" ph="{...}" />
+            <marker date="1548767331288" expanded="true" signature="374:538" ph="/// &lt;see cref=&quot;T:OpenTracing.ITracer&quot; /&gt; is a simple, thin interface for span creation and propagation across arb ... " />
+            <marker date="1548767331288" expanded="true" signature="565:5705" ph="{...}" />
+            <marker date="1548767331288" expanded="true" signature="739:996" ph="/// Get the active &lt;see cref=&quot;T:OpenTracing.ISpan&quot; /&gt;. This is a shorthand for &lt;code&gt;tracer.ScopeManager.Active.S ... " />
+            <marker date="1548767331288" expanded="true" signature="1032:2331" ph="/// Returns a new &lt;see cref=&quot;T:OpenTracing.ISpanBuilder&quot; /&gt; for a span with the given 'operationName'. ... " />
+            <marker date="1548767331288" expanded="true" signature="2387:3779" ph="/// Inect a &lt;see cref=&quot;T:OpenTracing.ISpanContext&quot; /&gt; into a 'carrier' of a given type, presumably for propagatio ... " />
+            <marker date="1548767331288" expanded="true" signature="3882:5621" ph="/// Extract a &lt;see cref=&quot;T:OpenTracing.ISpanContext&quot; /&gt; from a &lt;paramref name=&quot;carrier&quot; /&gt; of a given type, ... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Api.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServiceB/Startup.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/58FB2041-40D7-4733-9146-1E64307BD836/7/SpanContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="43" />
           <folding>
-            <marker date="1548762945437" expanded="false" signature="6:416" ph="..." />
-            <marker date="1548762945437" expanded="true" signature="436:1359" ph="{...}" />
-            <marker date="1548762945437" expanded="true" signature="463:1357" ph="{...}" />
-            <marker date="1548762945437" expanded="true" signature="522:585" ph="{...}" />
-            <marker date="1548762945437" expanded="true" signature="808:1002" ph="{...}" />
-            <marker date="1548762945437" expanded="true" signature="1190:1351" ph="{...}" />
-            <marker date="1548762945437" expanded="true" signature="1237:1314" ph="{...}" />
+            <marker date="1548768796345" expanded="false" signature="6:132" ph="..." />
+            <marker date="1548768796345" expanded="true" signature="196:5883" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="914:1179" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="940:1169" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="1006:1107" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="1215:1476" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="1241:1466" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="1306:1405" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="1659:1679" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="1916:2170" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="2246:2294" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="2344:2442" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="2483:2586" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="2629:2687" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="2754:3343" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="3413:3924" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="3538:3637" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="3669:3737" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="3754:3823" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="4003:4114" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="4176:4284" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="4294:4887" ph="/// Returns &lt;c&gt;true&lt;/c&gt; when the instance of the context is only used to return the debug/correlation ID ... " />
+            <marker date="1548768796345" expanded="true" signature="4934:5008" ph="{...}" />
+            <marker date="1548768796345" expanded="true" signature="5018:5667" ph="/// Create a new dummy &lt;see cref=&quot;SpanContext&quot;/&gt; as a container for &lt;paramref name=&quot;debugId&quot;/&gt; string. ... " />
+            <marker date="1548768796345" expanded="true" signature="5729:5877" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/fe/ce696d95/ISpanBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding>
+            <marker date="1548765109671" expanded="true" signature="6:380" ph="..." />
+            <marker date="1548765109671" expanded="true" signature="395:1419" ph="{...}" />
+            <marker date="1548765109671" expanded="true" signature="422:1417" ph="{...}" />
+            <marker date="1548765109671" expanded="true" signature="481:544" ph="{...}" />
+            <marker date="1548765109671" expanded="true" signature="678:1157" ph="{...}" />
+            <marker date="1548765109671" expanded="true" signature="1238:1411" ph="{...}" />
+            <marker date="1548765109671" expanded="true" signature="1285:1362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/Extensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <marker date="1548764503134" expanded="false" signature="6:443" ph="..." />
+            <marker date="1548764503134" expanded="true" signature="476:5465" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="513:5463" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="708:1901" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="758:975" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="1035:1259" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="1969:3100" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="2037:2984" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="2385:2968" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="2435:2668" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="3167:4588" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="3245:3912" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="4006:4249" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="4345:4578" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="4652:5239" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="4909:5229" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="5061:5158" ph="{...}" />
+            <marker date="1548764503134" expanded="true" signature="5329:5457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/b8/3a6188f4/ISpan.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33B76807-18BF-4720-B096-F808C5270794/0e/267e9e92/ISpanContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/ICorrelationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <marker date="1548770360995" expanded="false" signature="6:32" ph="..." />
+            <marker date="1548770360995" expanded="true" signature="65:509" ph="{...}" />
+            <marker date="1548770360995" expanded="true" signature="108:507" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="70" column="67" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+          <folding>
+            <marker date="1548770990810" expanded="false" signature="6:277" ph="..." />
+            <marker date="1548770990810" expanded="true" signature="304:2468" ph="{...}" />
+            <marker date="1548770990810" expanded="true" signature="409:2466" ph="{...}" />
+            <marker date="1548770990810" expanded="true" signature="686:928" ph="{...}" />
+            <marker date="1548770990810" expanded="true" signature="1034:1556" ph="{...}" />
+            <marker date="1548770990810" expanded="true" signature="1089:1546" ph="{...}" />
+            <marker date="1548770990810" expanded="true" signature="1641:1758" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/CorrelationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <marker date="1548770915104" expanded="false" signature="6:69" ph="..." />
+            <marker date="1548770915104" expanded="true" signature="102:2328" ph="{...}" />
+            <marker date="1548770915104" expanded="true" signature="162:2326" ph="{...}" />
+            <marker date="1548770915104" expanded="true" signature="676:696" ph="{...}" />
+            <marker date="1548770915104" expanded="true" signature="741:782" ph="{...}" />
+            <marker date="1548770915104" expanded="true" signature="1046:1626" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DShop.Common/RabbitMq/BusSubscriber.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="56" column="80" lean-forward="true" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+          <folding>
+            <marker date="1548771475691" expanded="false" signature="6:447" ph="..." />
+            <marker date="1548771475691" expanded="true" signature="480:9904" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="530:9902" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="918:1523" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="1745:3051" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="1862:2845" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="2051:2476" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="3263:3881" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="3377:3677" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="3891:4090" ph="/* Internal retry for services that subscribe to the multiple events of the same types. ... */" />
+            <marker date="1548771475691" expanded="true" signature="4322:6462" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="4676:6450" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="4710:5364" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="5408:6436" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="5617:6149" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="6480:6661" ph="/* RabbitMQ retry that will publish a message to the retry queue. ... */" />
+            <marker date="1548771475691" expanded="true" signature="6906:9218" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="7321:7603" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="7643:9208" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="7804:8308" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="8369:8846" ph="{...}" />
+            <marker date="1548771475691" expanded="true" signature="9304:9896" ph="{...}" />
           </folding>
         </state>
       </provider>
