@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Demo.1646528684.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Repositories\distributed-tracing-demos\src" t="IncludeFlat">
       <e p="Api" t="IncludeRecursive">
         <e p="Api.csproj" t="IncludeRecursive" />
         <e p="appsettings.Development.json" t="Include" />
@@ -85,5 +83,8 @@
         <e p="Shared.csproj" t="IncludeRecursive" />
       </e>
     </e>
+    <e p="C:\Users\xxfqa\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\xxfqa\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\xxfqa\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Demo.-793014011.00" t="ExcludeRecursive" />
   </component>
 </project>
